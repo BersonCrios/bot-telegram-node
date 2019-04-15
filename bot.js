@@ -30,7 +30,7 @@ bot.on(/^\/diz (.+)$/, (msg, props) => {
 
 
 bot.on('/marvetepira', (msg) => {
-    return bot.sendPhoto(msg.from.id, 'https://cdn.vox-cdn.com/thumbor/WmL8_VpInoIW7gzRroUp06oiKUI=/0x564:1988x3056/1200x800/filters:focal(861x1516:1179x1834)/cdn.vox-cdn.com/uploads/chorus_image/image/60042713/image1.1528905658.jpeg')
+    return msg.reply.photo('https://cdn.vox-cdn.com/thumbor/WmL8_VpInoIW7gzRroUp06oiKUI=/0x564:1988x3056/1200x800/filters:focal(861x1516:1179x1834)/cdn.vox-cdn.com/uploads/chorus_image/image/60042713/image1.1528905658.jpeg')
 });
 
 
